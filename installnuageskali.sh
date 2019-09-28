@@ -2,6 +2,8 @@
 echo "running kali pre-installation actions..."
 sudo apt update -y
 sudo apt install -y npm 
+wget http://http.us.debian.org/debian/pool/main/c/curl/libcurl3_7.52.1-5+deb9u9_amd64.deb
+sudo dpkg -i libcurl3*.deb
 
 git clone https://github.com/p3nt4/Nuages/
 wget https://raw.githubusercontent.com/deadjakk/Nuages-Utils/master/testnuages.py
