@@ -11,7 +11,7 @@ Type edit the Handler.py file to set configurations then run the Handler with:
 python Handler.py 
 ```
 
-## testnuages.py
+### testnuages.py
 Allows you to register an implant to test the server after installing the server
 <br>
 Example command:
@@ -19,7 +19,7 @@ Example command:
 python testnuages.py -i 127.0.0.1 -p 3090
 ```
 
-## installnuageskali.sh
+### installnuageskali.sh
 Like the title implies, installs the Nuages C2 server on a base kali image
 will try to keep this updated with the current kali stage however for 
 the time being this is for my current dev environment. 
