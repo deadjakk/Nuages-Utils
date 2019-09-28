@@ -1,0 +1,5 @@
+*.pyc
+*.swp
+dev/*
+src/*.pyc
+src/*.swp
