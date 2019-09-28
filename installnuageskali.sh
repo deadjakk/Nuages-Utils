@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "running kali pre-installation actions..."
+sudo apt update -y
 sudo apt install -y npm 
 
 git clone https://github.com/p3nt4/Nuages/
