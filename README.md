@@ -18,3 +18,12 @@ Example command:
 ```
 python testnuages.py -i 127.0.0.1 -p 3090
 ```
+
+## installnuageskali.sh
+Like the title implies, installs the Nuages C2 server on a base kali image
+will try to keep this updated with the current kali stage however for 
+the time being this is for my current dev environment. 
+However may aid individuals in installing Nuages on their within their own environment
+Has some redundancies but is currently working at the time of this writing
+<br>
+simply run the script as root 
