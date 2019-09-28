@@ -6,7 +6,7 @@ wget http://http.us.debian.org/debian/pool/main/c/curl/libcurl3_7.52.1-5+deb9u9_
 sudo dpkg -x libcurl3*.deb /tmp/
 sudo cp /tmp/usr/lib/x86_64-linux-gnu/libcurl.so.3 /usr/lib
 
-export LD_PRELOAD=/usr/lib/libcurl.so.3 mongod
+export LD_PRELOAD=/usr/lib/libcurl.so.3 
 git clone https://github.com/p3nt4/Nuages/
 wget https://raw.githubusercontent.com/deadjakk/Nuages-Utils/master/testnuages.py
 cd Nuages
